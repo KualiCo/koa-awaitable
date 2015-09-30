@@ -1,0 +1,39 @@
+{
+  "name": "koa-awaitable",
+  "version": "1.0.0",
+  "description": "A couple of functions to allow Koa to accept async / await endpoints and middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "test:watch": "mocha --watch --compilers js:babel/register",
+    "compile": "./node_modules/.bin/babel index.es6.js > index.js",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KualiCo/koa-awaitable.git"
+  },
+  "keywords": [
+    "koa",
+    "async/await",
+    "es7",
+    "koa-router",
+    "promise",
+    "generator"
+  ],
+  "author": "Murphy Randle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KualiCo/koa-awaitable/issues"
+  },
+  "homepage": "https://github.com/KualiCo/koa-awaitable#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "0.7.0",
+    "babel": "5.8.23",
+    "koa": "1.0.0",
+    "koa-router": "5.2.1",
+    "mocha": "2.3.3",
+    "supertest": "1.1.0"
+  }
+}
