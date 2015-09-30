@@ -1,6 +1,6 @@
 {
   "name": "koa-awaitable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A couple of functions to allow Koa to accept async / await endpoints and middleware",
   "main": "index.js",
   "scripts": {
